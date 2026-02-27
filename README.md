@@ -63,3 +63,66 @@ This project is part of my journey as a 3rd Year B.Tech CSE (AI & ML) student fo
 - Connect menu system with real functions
 - Refactor code into reusable functions
 - Improve project structure
+
+- ## 📅 Day 02 Progress
+
+### 🔐 User Authentication System
+
+- Implemented user signup functionality
+- Passwords stored securely using SHA-256 hashing
+- Implemented login verification system
+- Automatic login after successful signup
+
+---
+
+### 👤 Per-User Expense Management
+
+- Updated expense storage to include username
+- Each user can view only their own expenses
+- Established user-specific data handling logic
+
+CSV format updated:
+username,date,name,amount
+
+---
+
+### 📅 Automatic Date Tracking
+
+- Added automatic date stamp when expense is recorded
+- Removed need for manual date input
+- Ensured consistent record structure
+
+---
+
+### 🧩 Robust Data Handling
+
+- Updated viewing logic to support:
+  - Old records without date
+  - New records with date
+- Legacy data displays "N/A" for missing date
+
+---
+
+### 🔄 Application Flow Completed
+
+Structured program flow implemented:
+
+Welcome Screen  
+→ Login / Signup  
+→ Expense Menu  
+→ Add Expense / View Expenses / Logout  
+→ Return to Welcome
+
+---
+
+### 🧠 Concepts Learned
+
+- Authentication fundamentals
+- Password hashing for security
+- Multi-user data management
+- CSV structure evolution handling
+- Real-world application flow design
+
+---
+
+🚧 Next Step: Add expense categories and spending analysis
